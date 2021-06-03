@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task - Check Prime Number</title>
+    <link rel="stylesheet" href="../../tugas.css">
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <a href="../index.html" style="text-align: center;">Beranda</a>
+        <hr>
+        <a href="../Check Prime Number/primeNumber.html">Check Prime Number</a>
+        <a href="../Concatenate Arrays/concatenate.html">Concatenate Arrays</a>
+        <a href="../Looping/looping.html">Looping</a>
+        <a href="../The Fibonacci Number Sequence/fibonacci.html">The Fibonacci Number Sequence</a>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <!-- form pertama -->
+            <form class="form-container" onsubmit="return primeNumber()">
+                <h3 style="text-align: center;">Convert Value</h3>
+                <div>
+                    <label>Inputkan Nilai</label>
+                    <input type="number" id="prime" class="custom-input" oninput="primeNumber(event.target.value)">
+                </div>
+                <p id="output"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="primeNumber.js">
+    </script>
+</body>
+
+</html>

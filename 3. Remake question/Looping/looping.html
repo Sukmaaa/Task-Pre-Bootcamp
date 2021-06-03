@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task - Looping</title>
+    <link rel="stylesheet" href="../../tugas.css">
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <a href="../index.html" style="text-align: center;">Beranda</a>
+        <hr>
+        <a href="../Check Prime Number/primeNumber.html">Check Prime Number</a>
+        <a href="../Concatenate Arrays/concatenate.html">Concatenate Arrays</a>
+        <a href="../Looping/looping.html">Looping</a>
+        <a href="../The Fibonacci Number Sequence/fibonacci.html">The Fibonacci Number Sequence</a>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <form class="form-container" onsubmit="return looping()">
+                <h3 style="text-align: center;">Perulangan</h3>
+                <div>
+                    <label for="">Input Loop</label>
+                    <input id="input" class="custom-input" type="text" placeholder="Inputkan Huruf">
+                </div>
+                <div>
+                    <label for="">Select Multiples</label>
+                    <select class="select" id="select">
+                        <option value="1">Loop one</option>
+                        <option value="2">Loop Two</option>
+                        <option value="3">Loop Three</option>
+                    </select>
+                </div>
+                <button class="btn-primary" id="loop">Submit</button>
+                <p id="output"></p>
+            </form>
+        </div>
+    </div>
+    <script src="looping.js"></script>
+
+</html>

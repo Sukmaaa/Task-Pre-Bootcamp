@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task - Sentence Selection</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../tugas.css">
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <a href="../index.html" style="text-align: center;">Beranda</a>
+        <hr>
+        <a href="../2. Sentence selection/sentenceSelection.html">Sentence Selection</a>
+        <a href="../3. Remake question/4. Multiplication Table/multiplication.html">Remake Question</a>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <form class="form-container" onsubmit="return sentenceSelection()">
+                <h1 align="center">Sentence Selection</h1>
+                <div>
+                    <label>Please Input Paragraph</label>
+                    <input id="paragraph" class="custom-input" type="text" placeholder="Inputk Paragraph">
+                </div>
+                <div>
+                    <label>Please input Keyword</label>
+                    <input id="sentence" class="custom-input" type="text" placeholder="Input Keyword">
+                </div>
+                <div>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </div>
+                <p id="output"></p>
+            </form>
+        </div>
+    </div>
+    <script src="sentenceSelection.js">
+
+    </script>
+</body>
+
+</html>

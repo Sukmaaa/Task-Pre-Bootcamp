@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task - The Fibonacci Number Sequence</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../tugas.css">
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <a href="../index.html" style="text-align: center;">Beranda</a>
+        <hr>
+        <a href="../Check Prime Number/primeNumber.html">Check Prime Number</a>
+        <a href="../Concatenate Arrays/concatenate.html">Concatenate Arrays</a>
+        <a href="../Looping/looping.html">Looping</a>
+        <a href="../The Fibonacci Number Sequence/fibonacci.html">The Fibonacci Number Sequence</a>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <form class="form-container" onsubmit="return fibonacci()">
+                <h1 align="center">The Fibonacci Number Sequence</h1>
+                <div>
+                    <label>Inputkan Number</label>
+                    <input id="from" class="custom-input" type="number" placeholder="Inputkan Number">
+                </div>
+                <div>
+                    <label>Inputkan Number</label>
+                    <input id="until" class="custom-input" type="number" placeholder="Inputkan Number">
+                </div>
+                <div>
+                    <button type="submit" class="btn-primary">Submit</button>
+                </div>
+                <p id="output"></p>
+            </form>
+        </div>
+    </div>
+    <script src="fibonacci.js">
+
+    </script>
+</body>
+
+</html>
